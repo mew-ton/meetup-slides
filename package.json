@@ -5,5 +5,11 @@
   "volta": {
     "node": "22.15.1",
     "yarn": "4.9.1"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  },
+  "scripts": {
+    "start": "marp --browser-protocol webdriver-bidi --server ./src --theme-set ./styles/*.css"
   }
 }

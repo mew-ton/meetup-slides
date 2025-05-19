@@ -1,0 +1,13 @@
+/* @theme fe-meetup */
+
+@import-theme "gaia";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+section {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+* {
+  scale: 0.8;
+}

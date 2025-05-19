@@ -5,7 +5,7 @@
     }
   ],
   "extensions": {
-    "recommendations": ["biomejs.biome", "astro-build.astro-vscode"],
+    "recommendations": ["biomejs.biome", "marp-team.marp-vscode"],
     "unwantedRecommendations": ["eslint.vscode-eslint", "prettier.prettier"]
   },
   "settings": {
@@ -14,9 +14,6 @@
     },
     "[typescript]": {
       "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[astro]": {
-      "editor.defaultFormatter": "astro-build.astro-vscode"
     },
     "[json]": {
       "editor.defaultFormatter": "biomejs.biome"
@@ -34,7 +31,7 @@
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
       "tsconfig.json": "tsconfig.*.json",
-      "package.json": "yarn.lock, .yarn, .yarnrc.yml, *.config.ts, *.config.cjs, biome.json, lefthook.yml"
+      "package.json": "yarn.lock, .yarn, .yarnrc.yml, *.config.ts, *.config.cjs, biome.json, lefthook.yml, .markdownlint-cli2.jsonc, .editorconfig"
     }
   },
   "launch": {
