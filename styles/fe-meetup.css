@@ -10,4 +10,5 @@ section {
 
 * {
   scale: 0.8;
+  word-break: auto-phrase;
 }
