@@ -10,6 +10,6 @@
     "@marp-team/marp-cli": "^4.1.2"
   },
   "scripts": {
-    "start": "marp --browser-protocol webdriver-bidi --server ./src --theme-set ./styles/*.css"
+    "start": "marp --browser-protocol webdriver-bidi --allow-local-files --server ./src --theme-set ./styles/*.css"
   }
 }
