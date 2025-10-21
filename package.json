@@ -4,10 +4,10 @@
   "packageManager": "yarn@4.10.3",
   "volta": {
     "node": "22.15.1",
-    "yarn": "4.9.1"
+    "yarn": "4.10.3"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.1.2"
+    "@marp-team/marp-cli": "^4.2.3"
   },
   "scripts": {
     "start": "marp --browser-protocol webdriver-bidi --allow-local-files --server ./src --theme-set ./styles/*.css"
