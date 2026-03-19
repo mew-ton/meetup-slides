@@ -8,7 +8,7 @@ section {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-* {
+section > * {
   scale: 0.8;
   word-break: auto-phrase;
 }
