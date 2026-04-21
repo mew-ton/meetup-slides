@@ -137,3 +137,6 @@ dist
 
 # Private presentation files
 src/privates/
+
+# Claude Code local settings
+.claude/settings.local.json
