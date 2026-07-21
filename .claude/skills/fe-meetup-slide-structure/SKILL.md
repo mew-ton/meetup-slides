@@ -134,6 +134,13 @@ Any CSS or style-related update MUST include cross-browser compatibility informa
 
 The audience decides whether they can use a feature based on this — a CSS feature announcement without compat info is incomplete.
 
+## Source Citation Rule
+
+Footer 出典 links must point at the **primary source**, or the closest thing available to it: official release notes, the vendor's own announcement blog, standards-body press releases, or the original researchers' writeup.
+
+- ❌ Aggregator / quotation articles (GIGAZINE, news roundups) — they cite someone else; cite that someone instead
+- ✅ Secondary journalism only when no primary source exists for the specific claim
+
 ## Logos
 
 Only use logos available in `src/fe-meetup/_assets/logos/`. Omit the logo line if no logo exists for the technology.
