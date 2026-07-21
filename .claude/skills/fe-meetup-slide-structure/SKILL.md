@@ -118,6 +118,15 @@ The section title signals "why this matters" before the slide is even opened. In
 2. `## "Next.js" とは`
 3. `## React / Next.js のニュース`
 
+## CSS / Styling News Rule
+
+Any CSS or style-related update MUST include cross-browser compatibility information:
+
+- Which engines ship it and which don't (Chrome/Edge, Safari, Firefox) — a small table works well
+- What happens in non-supporting browsers: does it degrade gracefully (progressive enhancement viable) or break functionality (fallback needed)?
+
+The audience decides whether they can use a feature based on this — a CSS feature announcement without compat info is incomplete.
+
 ## Logos
 
 Only use logos available in `src/fe-meetup/_assets/logos/`. Omit the logo line if no logo exists for the technology.
