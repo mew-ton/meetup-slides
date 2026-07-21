@@ -77,10 +77,12 @@ YYYY/MM/DD
 The 3 lines describe **only what the technology is** — nothing else.
 
 - ❌ No cross-issue context ("先月号で紹介した〜の続報", "5 月号で RC を紹介した")
-- ❌ No news foreshadowing or before/after framing ("これまでは〜だった")
-- ✅ Timeless, descriptive facts about the technology itself
+- ✅ Descriptive facts about the technology itself
+- ✅ Chronology / history of the technology is fine
+  ("当初 Facebook が開発, 現在は React Foundation が権利を持つ",
+  "コンパイラは長らく TS 自身で実装されてきた")
 
-Continuity with previous issues and old-vs-new contrast belong in the ニュース slide or detail slides, not in とは.
+Continuity with previous issues of this slide series belongs in the ニュース slide or detail slides, not in とは.
 
 ## Section Title Rules
 
