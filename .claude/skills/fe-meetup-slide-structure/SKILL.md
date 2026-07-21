@@ -87,6 +87,8 @@ YYYY/MM/DD
 
 ### とは Slide Rules
 
+**Why 3 lines**: the meetup audience includes non-frontend engineers and complete beginners, so every technology needs an explanation — but explanation time is a budget, and spending more of it means the deck never finishes. 3 lines is the deliberate sweet spot: just enough for someone with no frontend background to follow the news that comes next, short enough to keep the pace. Do not expand beyond 3 lines, and do not skip the slide because "everyone knows this".
+
 The 3 lines describe **only what the technology is** — nothing else.
 
 - ✅ Descriptive facts about the technology itself
