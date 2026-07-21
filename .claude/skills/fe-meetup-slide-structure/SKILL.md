@@ -72,6 +72,16 @@ YYYY/MM/DD
 ## detail / background slides (optional, repeatable)
 ```
 
+## とは Slide Rules
+
+The 3 lines describe **only what the technology is** — nothing else.
+
+- ❌ No cross-issue context ("先月号で紹介した〜の続報", "5 月号で RC を紹介した")
+- ❌ No news foreshadowing or before/after framing ("これまでは〜だった")
+- ✅ Timeless, descriptive facts about the technology itself
+
+Continuity with previous issues and old-vs-new contrast belong in the ニュース slide or detail slides, not in とは.
+
 ## Section Title Rules
 
 The `##` on a title slide is **the name only by default** — `## Tailwind CSS` ✅, `## Tailwind CSS News` ❌
