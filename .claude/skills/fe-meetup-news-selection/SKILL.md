@@ -31,7 +31,7 @@ description: >
 
 ## Vulnerability Severity Bar (incidents)
 
-Individual CVE-level vulnerabilities are excluded by default, with one exception: **catastrophe-class ("大震災" 相当) events**, judged on 重篤度 (severity) and 影響度 (breadth of impact):
+Individual CVE-level vulnerabilities are excluded by default, with one exception: **disaster-class ("災害レベル") events**, judged on 重篤度 (severity) and 影響度 (breadth of impact):
 
 - **重篤度**: pre-auth / no-precondition exploitation; CVSS Critical (~9+) is a guide, but scores vary by assessor — judge by the exploitation conditions, not the number alone. Active in-the-wild exploitation strengthens the case.
 - **影響度**: the affected platform underpins a large share of the web or the frontend ecosystem, or vulnerabilities hit repeatedly across a major framework's ecosystem.
