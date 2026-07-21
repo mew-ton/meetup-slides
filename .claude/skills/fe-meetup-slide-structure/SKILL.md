@@ -118,6 +118,14 @@ The section title signals "why this matters" before the slide is even opened. In
 2. `## "Next.js" とは`
 3. `## React / Next.js のニュース`
 
+## Jargon Rule
+
+The audience includes non-frontend engineers and beginners. Avoid unexplained industry abbreviations — write plain Japanese or add a short inline gloss.
+
+- ❌ "TypeScript 7.0 が GA" → ✅ "TypeScript 7.0 が正式リリース"
+- ✅ Niche terms get a parenthetical: "IPFS (分散型ファイル共有ネットワーク)"
+- Established terms the deck already uses freely (OSS, CI, DL, npm) are fine
+
 ## CSS / Styling News Rule
 
 Any CSS or style-related update MUST include cross-browser compatibility information:
