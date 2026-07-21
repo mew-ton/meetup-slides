@@ -79,9 +79,8 @@ YYYY/MM/DD
 **Follow-up news (続報) is a valid and welcome pattern.** Structure it as dedicated slides in chronological order — first the background ("過去に何が起きていたか"), then the current news ("今回何があったか"). See the polyfill.io incident follow-up (202606) for the canonical example. Because the background slide retells the story, no past attendance is required.
 
 - ✅ Background slide before the news slide for follow-ups
-- ✅ Corrections that restate both the old claim and the fix:
-  "5 月号では「ES2026 に正式採用」と紹介していました. 実際は ES2027 送りです. 訂正します"
 - ✅ References to public events ("6 月に予告されていた通り") — these point at the news, not at a past meetup
+- ❌ Correction notices for past issues ("5 月号では〜と紹介していました. 訂正します") — nobody remembers; just state the current fact plainly
 - ❌ Past-issue references as the *only* context: "先月号で紹介した〜の続報" with no retelling
 - ❌ Doing any of this in the opening とは 3 lines — that slide is only for describing the technology (see below)
 
