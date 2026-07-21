@@ -150,9 +150,10 @@ Firefox.png  astro.svg  css.png  ecmascript.png  googlechrome.png
 html5.svg  javascript.png  nextjs.svg  nginx.png  nodejs.png
 npm.png  react.png  remix.png  safari.png  tailwindcss.svg
 typescript.png  vite.png  voidzero.png  vscode.png
+wordpress_g.png  wordpress_w.png
 ```
 
-Logo files must be **official assets** (from the vendor's own brand/press page) — never community redrawings (e.g. simple-icons) or hand-made approximations, so that brand-guideline compliance stays verifiable. If a logo comes in two variants, name them `_b` (colored, for light sections such as 今月のフロントエンド) and `_w` (white, for inverted dark sections such as 今月のインシデント) and pick the variant matching the section background.
+Logo files must be **official assets** (from the vendor's own brand/press page) — never community redrawings (e.g. simple-icons) or hand-made approximations, so that brand-guideline compliance stays verifiable. If a logo comes in variants, suffix them (e.g. `wordpress_g` gray for light sections such as 今月のフロントエンド, `wordpress_w` white for inverted dark sections such as 今月のインシデント) and pick the variant matching the section background.
 
 ## Output
 
