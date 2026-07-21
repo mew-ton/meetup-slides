@@ -150,6 +150,14 @@ typescript.png  vite.png  voidzero.png  vscode.png
 
 `src/fe-meetup/YYYYMM.md`
 
+After the markdown is final, generate the archive PDF and commit it too:
+
+```
+yarn pdf YYYYMM   # -> src/fe-meetup/archives/YYYYMM.pdf
+```
+
+The script warns if no local Japanese font is available (the theme's webfont is unreachable offline; without a local font, glyphs fall back to Chinese shapes). Visually check a rendered page before committing.
+
 ## December Special (Year in Review)
 
 - Cover all themes equally (governance / HTML+CSS / security / etc.)
