@@ -134,6 +134,13 @@ Any CSS or style-related update MUST include cross-browser compatibility informa
 
 The audience decides whether they can use a feature based on this — a CSS feature announcement without compat info is incomplete.
 
+## Source Citation Rule
+
+Footer 出典 links must point at the **primary source**, or the closest thing available to it: official release notes, the vendor's own announcement blog, standards-body press releases, or the original researchers' writeup.
+
+- ❌ Aggregator / quotation articles (GIGAZINE, news roundups) — they cite someone else; cite that someone instead
+- ✅ Secondary journalism only when no primary source exists for the specific claim
+
 ## Logos
 
 Only use logos available in `src/fe-meetup/_assets/logos/`. Omit the logo line if no logo exists for the technology.
@@ -143,7 +150,10 @@ Firefox.png  astro.svg  css.png  ecmascript.png  googlechrome.png
 html5.svg  javascript.png  nextjs.svg  nginx.png  nodejs.png
 npm.png  react.png  remix.png  safari.png  tailwindcss.svg
 typescript.png  vite.png  voidzero.png  vscode.png
+wordpress_g.png  wordpress_w.png
 ```
+
+Logo files must be **official assets** (from the vendor's own brand/press page) — never community redrawings (e.g. simple-icons) or hand-made approximations, so that brand-guideline compliance stays verifiable. If a logo comes in variants, suffix them (e.g. `wordpress_g` gray for light sections such as 今月のフロントエンド, `wordpress_w` white for inverted dark sections such as 今月のインシデント) and pick the variant matching the section background.
 
 ## Output
 
