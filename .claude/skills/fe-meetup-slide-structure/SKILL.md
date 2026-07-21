@@ -152,6 +152,8 @@ npm.png  react.png  remix.png  safari.png  tailwindcss.svg
 typescript.png  vite.png  voidzero.png  vscode.png
 ```
 
+Logo files must be **official assets** (from the vendor's own brand/press page) — never community redrawings (e.g. simple-icons) or hand-made approximations, so that brand-guideline compliance stays verifiable. If a logo comes in two variants, name them `_b` (colored, for light sections such as 今月のフロントエンド) and `_w` (white, for inverted dark sections such as 今月のインシデント) and pick the variant matching the section background.
+
 ## Output
 
 `src/fe-meetup/YYYYMM.md`
