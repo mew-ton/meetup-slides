@@ -72,17 +72,24 @@ YYYY/MM/DD
 ## detail / background slides (optional, repeatable)
 ```
 
-## とは Slide Rules
+## Self-Containment Rule
+
+**Never write in a way that requires having attended a past meetup to understand.** Each month's deck must be fully understandable on its own.
+
+- ❌ Past-issue references as the only context: "先月号で紹介した〜の続報", "5 月号で RC を紹介した, その正式版"
+- ✅ Corrections / follow-ups are allowed, but restate the needed context in the slide itself:
+  "5 月号では "ES2026 に採用" と紹介しましたが, 実際は ES2027 送りでした. 訂正します"
+- ✅ References to public events are fine ("6 月に予告されていた通り") — these point at the news, not at a past meetup
+
+### とは Slide Rules
 
 The 3 lines describe **only what the technology is** — nothing else.
 
-- ❌ No cross-issue context ("先月号で紹介した〜の続報", "5 月号で RC を紹介した")
 - ✅ Descriptive facts about the technology itself
 - ✅ Chronology / history of the technology is fine
   ("当初 Facebook が開発, 現在は React Foundation が権利を持つ",
   "コンパイラは長らく TS 自身で実装されてきた")
-
-Continuity with previous issues of this slide series belongs in the ニュース slide or detail slides, not in とは.
+- ❌ This slide series' own continuity ("先月号で〜") — that belongs in the ニュース slide or detail slides, phrased self-contained per the rule above
 
 ## Section Title Rules
 
