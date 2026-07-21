@@ -76,10 +76,14 @@ YYYY/MM/DD
 
 **Never write in a way that requires having attended a past meetup to understand.** Each month's deck must be fully understandable on its own.
 
-- ❌ Past-issue references as the only context: "先月号で紹介した〜の続報", "5 月号で RC を紹介した, その正式版"
-- ✅ Corrections / follow-ups are allowed, but restate the needed context in the slide itself:
-  "5 月号では "ES2026 に採用" と紹介しましたが, 実際は ES2027 送りでした. 訂正します"
-- ✅ References to public events are fine ("6 月に予告されていた通り") — these point at the news, not at a past meetup
+**Follow-up news (続報) is a valid and welcome pattern.** Structure it as dedicated slides in chronological order — first the background ("過去に何が起きていたか"), then the current news ("今回何があったか"). See the polyfill.io incident follow-up (202606) for the canonical example. Because the background slide retells the story, no past attendance is required.
+
+- ✅ Background slide before the news slide for follow-ups
+- ✅ Corrections that restate both the old claim and the fix:
+  "5 月号では「ES2026 に正式採用」と紹介していました. 実際は ES2027 送りです. 訂正します"
+- ✅ References to public events ("6 月に予告されていた通り") — these point at the news, not at a past meetup
+- ❌ Past-issue references as the *only* context: "先月号で紹介した〜の続報" with no retelling
+- ❌ Doing any of this in the opening とは 3 lines — that slide is only for describing the technology (see below)
 
 ### とは Slide Rules
 
