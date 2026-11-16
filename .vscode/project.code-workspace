@@ -26,6 +26,8 @@
 
     "editor.formatOnSave": true,
 
+    "markdown.marp.html": "all",
+
     "liveServer.settings.root": "./dist",
 
     "explorer.fileNesting.enabled": true,
