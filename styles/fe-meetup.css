@@ -12,3 +12,15 @@ section > * {
   scale: 0.8;
   word-break: auto-phrase;
 }
+
+/* 対象をたくさん並べるスライド用: <!-- _class: grid --> */
+section.grid ul {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  gap: 0.15em 1.6em;
+  width: 100%;
+  padding-left: 0;
+  font-size: 0.8em;
+  list-style: none;
+  white-space: nowrap;
+}
